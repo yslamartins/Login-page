@@ -1,0 +1,112 @@
+body{
+  background-color: rgba(173, 89, 192, 0.26);
+  font-family: 'Monsterrat', sans-serif;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.esquerda{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%; 
+}
+.direita{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 50%;
+  height: 100%;
+}
+.topo{
+  display: flex;
+  justify-content: top;
+  width: 100%;
+}
+.titulo{
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+.botao{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topo button{
+    border-radius: 10px;
+    font-weight: bold;
+    background: #A465A6;
+    border: none;
+    padding: 10px;
+    color: white;
+    width: 100px;
+    height: 45px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+.meio{
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; 
+}
+.meio form .inputs-texto{
+  display: flex;
+}
+.radio {
+  display: flex;
+}
+.meio form input{
+    border-radius: 2px;
+    padding: 5px;
+    border-radius: 5px ;
+    border: none;
+    background: #cccc;
+    width: 120px;
+}
+.meio form label{
+  display: block;
+}
+.meio radio{
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+.dir{
+  display: flex; 
+  flex-direction: column;  
+  justify-content: top;
+  width: 50%;
+  height: 20%; 
+}
+.esq{
+  display: flex; 
+  flex-direction: column;  
+  justify-content: top;
+  width: 50%;
+  height: 20%; 
+}
+.fim{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 90%;
+}
+.fim button{
+    border-radius: 10px;
+    font-weight: bold;
+    background: #A465A6;
+    border: none;
+    padding: 10px;
+    color: white;
+    width: 500px;
+    height: 45px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
